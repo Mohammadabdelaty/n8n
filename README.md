@@ -35,9 +35,13 @@ this is screen of my workflow:
 ![alt text](screens/image.png)
 
 ## Check veeam back WF
-I'm using it to do a schedule chak for my veeam backup of my servers using schedule trigger and exect shell on my machine to run the check command, I used my ssh key for auth. and it sends my a http request on team using team webhook
+I'm using it to do a schedule check for my veeam backup of my servers using schedule trigger and exec shell on my machine to run the check command, I used my ssh key for auth. and it sends my a http request on team using team webhook
 
-![alt text](image-1.png)
 
-![alt text](image.png)
+![alt text](screens/image1.png)
 
+![alt text](screens/image2.png)
+
+* Schecule trigger is just like cronjob in linux but in addition to seconds field.
+
+`0 0 */3 * * 0-4` >> each 3 hours, each day of the month, each month, from sunday to thursday. 
